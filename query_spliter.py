@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDF1Hd3x1ueVFTf9WM-IjpxP3tUGxs3Yz4")
+genai.configure(api_key="API_Key")
 
 # Function for query decomposition using Gemini
 def query_decomposition_gemini(question: str) -> str:
